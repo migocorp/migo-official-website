@@ -1,5 +1,52 @@
-(function($) {
+(function ($) {
   "use strict";
+
+  var wind = $(window);
+  var serviceSideBar = $('#service-sidebar');
+  // Service detail page - scroll and fixed the left area
+  // Innit fixedDiv
+  function fixedDiv() {
+    if (wind.width() > 990) {
+      if (wind.scrollTop() < 295) {
+        serviceSideBar.removeClass('fixedPos');
+      } else {
+        serviceSideBar.addClass('fixedPos');
+      }
+    } else {
+      serviceSideBar.removeClass('fixedPos');
+    }
+
+  }
+  fixedDiv();
+  // fixed div scroll
+  wind.on('scroll', function () {
+    if (wind.width() > 990) {
+      if (wind.scrollTop() < 295) {
+        serviceSideBar.removeClass('fixedPos');
+      } else {
+        serviceSideBar.addClass('fixedPos');
+      }
+    } else {
+      serviceSideBar.removeClass('fixedPos');
+    }
+
+  });
+  // fixed div resize
+  wind.resize(function () {
+    console.log('Width: ' + wind.width())
+
+    console.log(wind.scrollTop())
+    if (wind.width() > 990) {
+      if (wind.scrollTop() < 295) {
+        serviceSideBar.removeClass('fixedPos');
+      } else {
+        serviceSideBar.addClass('fixedPos');
+      }
+
+    } else {
+      serviceSideBar.removeClass('fixedPos');
+    }
+  });
 
   // mobile menu
   $("#mobile-menu").meanmenu({
@@ -9,7 +56,6 @@
 
 
   // sticky
-  var wind = $(window);
   var sticky = $('#sticky-header');
   wind.on('scroll', function () {
     var scroll = wind.scrollTop();
@@ -21,11 +67,11 @@
   });
 
   // offcanvas menu
-  $(".menu-tigger").on("click", function() {
+  $(".menu-tigger").on("click", function () {
     $(".offcanvas-menu,.offcanvas-overly").addClass("active");
     return false;
   });
-  $(".menu-close,.offcanvas-overly").on("click", function() {
+  $(".menu-close,.offcanvas-overly").on("click", function () {
     $(".offcanvas-menu,.offcanvas-overly").removeClass("active");
   });
 
@@ -33,13 +79,13 @@
 
   function mainSlider() {
     var BasicSlider = $(".slider-active");
-    BasicSlider.on("init", function(e, slick) {
+    BasicSlider.on("init", function (e, slick) {
       var $firstAnimatingElements = $(".single-slider:first-child").find(
         "[data-animation]"
       );
       doAnimations($firstAnimatingElements);
     });
-    BasicSlider.on("beforeChange", function(e, slick, currentSlide, nextSlide) {
+    BasicSlider.on("beforeChange", function (e, slick, currentSlide, nextSlide) {
       var $animatingElements = $(
         '.single-slider[data-slick-index="' + nextSlide + '"]'
       ).find("[data-animation]");
@@ -63,7 +109,7 @@
     function doAnimations(elements) {
       var animationEndEvents =
         "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
-      elements.each(function() {
+      elements.each(function () {
         var $this = $(this);
         var $animationDelay = $this.data("delay");
         var $animationType = "animated " + $this.data("animation");
@@ -71,7 +117,7 @@
           "animation-delay": $animationDelay,
           "-webkit-animation-delay": $animationDelay
         });
-        $this.addClass($animationType).one(animationEndEvents, function() {
+        $this.addClass($animationType).one(animationEndEvents, function () {
           $this.removeClass($animationType);
         });
       });
@@ -127,7 +173,7 @@
   });
 
   // isotope
-  $(".portfolio-active").imagesLoaded(function() {
+  $(".portfolio-active").imagesLoaded(function () {
     var $grid = $(".portfolio-active").isotope({
       itemSelector: ".grid-item",
       percentPosition: true,
@@ -139,13 +185,13 @@
 
     // filter items on button click
     $(".portfolio-menu").on("click", "button", function () {
-        var filterValue = $(this).attr("data-filter");
-        $grid.isotope({ filter: filterValue });
+      var filterValue = $(this).attr("data-filter");
+      $grid.isotope({ filter: filterValue });
     });
   });
 
   //for menu active class
-  $(".portfolio-menu button").on("click", function(event) {
+  $(".portfolio-menu button").on("click", function (event) {
     $(this)
       .siblings(".active")
       .removeClass("active");
@@ -239,9 +285,9 @@
     animationOutSpeed: 1000, // Animation out speed (ms)
     scrollText: '<span class="lnr lnr-chevron-up"></span>' // Text for element
   });
-  
-  if($("#search-input").length >0){
-    
+
+  if ($("#search-input").length > 0) {
+
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),

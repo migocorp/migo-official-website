@@ -1,0 +1,29 @@
+---
+layout: page
+title: 成功案例
+---
+<!-- success-case-area -->
+<section class="about-area grey-bg pb-60 pt-100">
+    <div class="container">
+        <div class="row">
+            {% for client in site.success_cases %}
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50 ">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="{{client.image}}" class="img-fluid" alt="{{client.title}}">
+                    </div>
+                    <div class="services-content">
+                        <div class="card-title">
+                            <h5><a href="{{client.url}}">{{client.title}}</a></h5>
+                        </div>
+                        <div class="card-text">
+                            <p>{{client.description}}</p>
+                        </div>
+                        <a href="{{client.url}}" class="readmore">繼續閱讀</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

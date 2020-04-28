@@ -49,8 +49,13 @@ blockquote {
 .client-text {
 	padding: 0 148px;
 }
-
-
+.service-sidebar {
+	width: 300px;
+}
+.service-sidebar.fixedPos {
+	width: 300px;
+	left: auto;
+}
 
 
 }
@@ -141,7 +146,9 @@ blockquote {
 .sticky {
 	position: static;
 }
-
+.service-sidebar {
+	width: 100%;
+}
 
 
 }
@@ -275,9 +282,6 @@ blockquote {
 .comments-avatar img {
 	width: 100%;
 }
-
-
-
 
 
 }

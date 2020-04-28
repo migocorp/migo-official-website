@@ -3,35 +3,40 @@
         <div class="row">
             <div class="col-xl-12 text-center pb-40">
                 <div class="section-title service-title">
-                    <h2>Latest Blog</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form,words which don't look even slightly believable.</p>
+                    <h2>Migo精選</h2>
+                    <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form,words which don't look even slightly believable.</p> -->
                 </div>
             </div>
         </div>
         <div class="row">
-            {% for post in site.posts limit:"3" %}
-            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div class="blog-wrapper home-blog-wrapper white-bg">
-                    <div class="blog-thumb">
+            {% for post in site.posts limit:"4" %}
+            <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                <!-- <div class="blog-wrapper home-blog-wrapper white-bg"> -->
+                    <div class="blog-wrapper">
+                    <!-- <div class="blog-thumb">
                         <a href="{{post.url}}">
                             <img src="{{post.post_image}}" alt="{{post.title}}"/>
                         </a>
-                    </div>
-                    <div class="meta-info">
+                    </div> -->
+                    <!-- <div class="meta-info">
                         <ul>
                             <li class="posts-time">{{post.date | date_to_long_string}}</li>
                         </ul>
-                    </div>
-                    <div class="blog-content home-blog">
+                    </div> -->
+                    <!-- <div class="blog-content home-blog"> -->
+                    <div class="features-wrap blog-content home-blog h-limit">
                         <h2 class="blog-title">
-                            <a href="{{post.url}}">{{post.title}}</a>
+                            <!-- <a href="{{post.url}}">{{post.title}}</a> -->
+                            <h4 class="article-title">{{post.title}}</h4>
                         </h2>
-                        <p>{{excerpt | truncatewords:"25"}}</p>
+                        <!-- <p>{{excerpt | truncatewords:"25"}}</p> -->
+                        <p class="article-description">{{post.description}}</p>
+                        <a class="readmore btn-bg" href="{{post.url}}">了解更多</a>
                     </div>
-                    <div class="link-box home-blog-link">
+                    <!-- <div class="link-box home-blog-link">
                         <a href="{{post.url}}">Read More</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             {% endfor %}

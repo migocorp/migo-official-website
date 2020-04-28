@@ -175,3 +175,31 @@ a.meanmenu-reveal {
 	background: #fff;
 }
 .mean-container .mean-nav ul li a i{display:none;}
+.mean-container .mean-nav ul li a i.fab{display:block;}
+.mean-container .mean-nav ul li.mean-last.menu-social {
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+.mean-container .mean-nav ul li.mean-last.menu-social .menu-social-area {
+	position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+.mean-container .mean-nav ul li.mean-last.menu-social .menu-social-area a {
+	float: none;
+    width: 30px;
+    padding: 4px;
+    border: none;
+    text-align: right;
+    display: inline-block;
+}
+.mean-container .mean-nav ul li.mean-last.menu-social .menu-social-area a:hover {
+	background: none;
+}
+.mean-container .mean-nav ul li.mean-last.menu-social .menu-social-area a.i-facebook:hover {
+	color: #2275ef;
+}
+.mean-container .mean-nav ul li.mean-last.menu-social .menu-social-area a.i-line:hover {
+	color: #00c300;
+}

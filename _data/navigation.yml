@@ -1,34 +1,38 @@
 #Please use the main menu items under the "text"
 
-- text: Home
-  url: /
+- text: 服務項目
+  url: /pages/services-details
   submenu:
-  - text: Home 2
-    url: /pages/index-2
-  - text: Home 3
-    url: /pages/index-3
-- text: About
-  url: /pages/about
-- text: Blog
+  - text: Ｍigo平台
+    url: /pages/services-details#migo-platform
+  - text: CRM顧問
+    url: /pages/services-details#migo-crm-adviser
+  - text: 數據服務
+    url: /pages/services-details#migo-data-service
+  - text: 行銷活動操作
+    url: /pages/services-details#migo-crm-marketing-operating
+- text: 成功案例
+  url: /pages/success_case
+- text: 趨勢觀點
   url: /pages/blog
-- text: Services
+- text: 聯絡我們
   url: /pages/services
-- text: Pages
-  url: /
-  submenu:
-  - text: Services
-    url: /pages/services
-  - text: Service Details
-    url: /pages/services-details
-  - text: Portfolio
-    url: /pages/portfolio   
-  - text: Portfolio Details
-    url: /pages/portfolio-details 
-  - text: About Us
-    url: /pages/about
-  - text: Contact
-    url: /pages/contact
-  - text: 404
-    url: /pages/404
-- text: Contact
-  url: /pages/contact
+# - text: Pages
+#   url: /
+#   submenu:
+#   - text: Services
+#     url: /pages/services
+#   - text: Service Details
+#     url: /pages/services-details
+#   - text: Portfolio
+#     url: /pages/portfolio   
+#   - text: Portfolio Details
+#     url: /pages/portfolio-details 
+#   - text: About Us
+#     url: /pages/about
+#   - text: Contact
+#     url: /pages/contact
+#   - text: 404
+#     url: /pages/404
+# - text: Contact
+#   url: /pages/contact

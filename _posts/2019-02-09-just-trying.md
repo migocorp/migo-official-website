@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Just Trying And Enjoying magna etiam"
+title: "那些年中國數據市場教我的事"
 date: 2019-02-09 20:37:13 +0600
 tags: technology education
 categories: [tech]
 author: themeix
 post_image: "/assets/img/blog/04.jpg"
+description: "1998年，MIGO從一個專營EDM＆簡訊發送、網頁追蹤服務的網路行銷應用服務供應商，如今，成為許多品牌企業信賴託付的數據行銷顧問。這樣的轉變，與MIGO在中國市場征戰的經驗息息相關。​"
 ---
 
 <b>augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit est velit similique laborum, cumque aliquam porro dicta debitis repellat, tempore dignissimos, neque ab fuga voluptatibus. Earum numquam repellat sed perspiciatis ratione explicabo, odit! Repellendus voluptatibus nemo praesentium<b>

@@ -1,28 +1,34 @@
 ---
 layout: post
-title: "Welcome to Jekyll! Go ahead and edit"
+title: "為你的品牌重新開機"
 date: 2019-04-08 15:12:09 +0600
 tags: jekyll
 categories: [jekyll update]
 author: monica_powell
 post_image: "/assets/img/blog/03.jpg"
+description: "IGO不是大數據分析工具的提供者，而是品牌企業經營顧客的強力後盾！有了MIGO，就像擁有一位內部專屬的數據行銷顧問！"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<div class="post-content">
+  <h4>為你的品牌重新開機</h4>
+  <p>
+  MIGO不是大數據分析工具的提供者，而是品牌企業經營顧客的強力後盾！有了MIGO，就像擁有一位內部專屬的數據行銷顧問！​
+  </p>
+  <p>
+  也許你常有這樣的感覺：找了一間大數據服務公司想整理內部數據，他想跟你討論要分析哪些數據？哪些欄目？想建立哪些標籤或預測機制？但其實，你也不知道！​
+  </p>
+  <p>​
+  因為，你面臨的，是一個最實際的行銷問題！​
+  </p>
+  <p>
+  你需要的，不是將大量數據導入一個功能複雜的監測儀表板，而是一個能幫你用數據真正變現的行銷顧問。不僅能了解你的行銷目的、行銷模式，更能把你面臨的行銷問題自動轉化，找出應該分析的關鍵數據，再陪你一起觀察這些數據產生的訊息，給予具體的行銷建議。​
+  </p>
+  <p>
+  MIGO具有20多年的顧客關係管理（CRM）經驗，早期提供的主要服務是EDM＆簡訊發送、網頁追蹤，後來當CRM的概念從「銷售」走向「行銷」，使得MIGO開始思考，若能個別分析顧客行為背後的交易數據，發現品牌消費足跡，那麼將能為品牌企業帶來更多變現機會，提高顧客管理價值。於是MIGO開始建立自己的商業智慧（Business Intelligence，BI）團隊，從發送EDM的名單到開始關心會員的一切數據。​
+  </p>
+  <p>
+  也因為擅長個人化分析的DNA，使MIGO有別於一般著重模組化、演算法的數據服務科技公司，更致力於「一對一行銷」。我們強調以「人」為核心，而不以「產品」為主軸，一切回歸行銷問題本身，關注個人化的數據變化。像是：主顧客是哪些人？他們有沒有提升消費額？有沒有增加消費頻率？當中哪些人開始買不同的產品？…等，再將這些消費行為與行銷活動扣連，細部檢視行銷成效，提出建議方案。真正幫品牌企業掌握每一位顧客動向，有效變現！​
+  </p>
+  <p>
+  每一個品牌企業都渴望提升每筆行銷投資的轉換率，而要提高轉換率，就必須精準滿足你的顧客需求！懂得投其所好，在對的時間、向對的人、提供對的商品，當顧客願意下單，你的品牌價值也獲得提升，一旦你的品牌價值提升，就更容易誘發顧客盡快做出下一次交易，這種讓品牌企業客戶和企業的顧客雙贏的局面，正是MIGO希望創造的良性循環。​
+  </p>
+</div>

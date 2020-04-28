@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: featured
 title: Themes & plugins
 icon: /assets/img/icons/address-card-solid.svg
@@ -44,4 +44,4 @@ description: Features & plugins parturient denouncing pleasure and praising pain
         commodo pharetra est eros bibendum elit nec luctus magna felis sollicitudin mauris.
         Integer in mauris nibh euismod gravida.
         Duis ac tellus et risus vulputate vehicula.</p>
-</div>
+</div> -->

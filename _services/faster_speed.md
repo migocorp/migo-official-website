@@ -1,8 +1,9 @@
 ---
 layout: featured
-title: Faster More  Then Speed
+title: CRM顧問
 icon: /assets/img/icons/algolia-brands.svg
 image: /assets/img/services/02.jpg
+link: /pages/services-details.html#migo-crm-adviser
 description: Condimentum consectetur quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---
 
