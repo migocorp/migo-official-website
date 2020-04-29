@@ -33,9 +33,9 @@
   });
   // fixed div resize
   wind.resize(function () {
-    console.log('Width: ' + wind.width())
+    // console.log('Width: ' + wind.width())
 
-    console.log(wind.scrollTop())
+    // console.log(wind.scrollTop())
     if (wind.width() > 990) {
       if (wind.scrollTop() < 295) {
         serviceSideBar.removeClass('fixedPos');
