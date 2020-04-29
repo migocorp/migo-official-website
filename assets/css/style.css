@@ -845,6 +845,9 @@ label {
 	right: 0;
 	margin: auto;
 }
+.services-content .btn-wrap {
+	text-align: right;
+}
 .services-img {
 	margin-bottom: 25px;
 	overflow: hidden;

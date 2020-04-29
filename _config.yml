@@ -104,7 +104,7 @@ jekyll-archives:
   enabled: all
   layout: category
   permalinks:
-    category: '/migo-official-website/category/:name/'
+    category: '/category/:name/'
 
 feed:
   collections:
