@@ -1596,7 +1596,6 @@ label {
 	margin-bottom: 20px;
 }
 .blog-title {
-	display: inline-block;
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 1.4;
@@ -1605,7 +1604,6 @@ label {
 	text-align: left;
 }
 .blog-content {
-	text-align: center;
 	position: relative;
 }
 .blog-content.home-blog h2 {
@@ -1680,6 +1678,9 @@ label {
 }
 .blog-title a {
 	color: #222;
+}
+.link-box {
+	text-align: right;
 }
 .link-box a {
 	color: #555;

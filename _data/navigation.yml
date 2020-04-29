@@ -1,22 +1,22 @@
 #Please use the main menu items under the "text"
 
 - text: 服務項目
-  url: /pages/services-details
+  url: /migo-official-website/pages/services-details
   submenu:
   - text: Ｍigo平台
-    url: /pages/services-details#migo-platform
+    url: /migo-official-website/pages/services-details#migo-platform
   - text: CRM顧問
-    url: /pages/services-details#migo-crm-adviser
+    url: /migo-official-website/pages/services-details#migo-crm-adviser
   - text: 數據服務
-    url: /pages/services-details#migo-data-service
+    url: /migo-official-website/pages/services-details#migo-data-service
   - text: 行銷活動操作
-    url: /pages/services-details#migo-crm-marketing-operating
+    url: /migo-official-website/pages/services-details#migo-crm-marketing-operating
 - text: 成功案例
-  url: /pages/success_case
+  url: /migo-official-website/pages/success_case
 - text: 趨勢觀點
-  url: /pages/blog
+  url: /migo-official-website/pages/blog
 - text: 聯絡我們
-  url: /pages/contact
+  url: /migo-official-website/pages/contact
 # - text: Pages
 #   url: /
 #   submenu:

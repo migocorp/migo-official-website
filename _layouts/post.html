@@ -16,7 +16,7 @@ layout: default
                 <div class="breadcrumb">
                     <ul>
                         <li><a href="{{site.url}}">Home</a></li>
-                        <li><a href="/pages/blog">Blog</a></li>
+                        <li><a href="{{site.baseurl}}/pages/blog">Blog</a></li>
                         <li class="text-white pl-1"> Blog-Details</li>
                     </ul>
                 </div>
@@ -31,7 +31,7 @@ layout: default
             <div class="col-lg-8 blog-post-items">
                 <div class="blog-wrapper mb-60">
                     <div class="blog-thumb">
-                        <img src="{{page.post_image}}" alt="{{page.title}}"/>
+                        <img src="{{site.baseurl}}{{page.post_image}}" alt="{{page.title}}"/>
                     </div>
                     <div class="blog-content">
                         <div class="blog-social-area">
