@@ -15,7 +15,7 @@ logo_2: "/migo-official-website/assets/img/logo/logo_2.png"
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
 mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
 
-permalink: "/migo-official-website/:title"
+permalink: "/:title"
 
 
 # Build settings
@@ -26,7 +26,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 
-cover_image: "/migo-official-website/assets/img/bg/page-title.jpg"
+cover_image: "/assets/img/bg/page-title.jpg"
 
 
 #collections
@@ -57,7 +57,7 @@ pagination:
 
   # The permalink structure for the paginated pages (this can be any level deep)
   #permalink: '/page/:num/' # Pages are index.html inside this folder (default)
-  permalink: '/migo-official-website/pages/blog/:num/' # Pages are simple html file
+  permalink: '/pages/blog/:num/' # Pages are simple html file
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
