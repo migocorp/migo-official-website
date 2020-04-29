@@ -1,9 +1,9 @@
 ---
 layout: featured
 title: 行銷活動操作
-icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
-image: /assets/img/services/02.jpg
-link: /pages/services-details.html#migo-crm-marketing-operating
+icon: ./assets/img/icons/american-sign-language-interpreting-solid.svg
+image: ./assets/img/services/02.jpg
+link: ./pages/services-details.html#migo-crm-marketing-operating
 description: Dedicated support quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
 ---
 
