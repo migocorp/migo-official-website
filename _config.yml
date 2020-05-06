@@ -21,13 +21,8 @@ permalink: "/:title"
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-archives
-
+plugins: [jekyll-feed, jekyll-paginate-v2, jekyll-archives, jekyll/tagging]
 cover_image: "/migo-official-website/assets/img/bg/page-title.jpg"
-
 
 #collections
 collections:
