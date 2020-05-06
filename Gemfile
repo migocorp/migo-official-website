@@ -21,7 +21,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate-v2"
-  gem 'jekyll-tagging', :git => 'https://github.com/pattex/jekyll-tagging.git'
+  gem 'jekyll-tagging', '~> 1.0', '>= 1.0.1'
   gem 'jekyll-archives'
 end
 
