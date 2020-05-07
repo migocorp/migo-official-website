@@ -11,6 +11,8 @@ layout: default
                     <div class="breadcrumb-title sm-size">
                         {% if page.title == 'category' %}
                         <h2>{{page.categoryName}}</h2>
+                        {% elsif page.title == 'tag' %}
+                        <h2>{{page.categoryName}}</h2>
                         {% else %}
                         <h2>{{page.title}}</h2>
                         {% endif %}
