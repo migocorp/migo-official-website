@@ -35,15 +35,6 @@ collections:
     output: true
   success_cases:
     output: true
-  category:
-    output: true
-  defaults:
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
 
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem
