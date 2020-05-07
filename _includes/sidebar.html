@@ -34,9 +34,10 @@
     <div class="widget-link">
         <ul class="sidebar-link">
           {% for category in site.categories %}
-            {% assign category_name = category[0] %}
+          <h3>{{ category[0] }}</h3>
+          {% for post in category[1] %}
             <li>
-              <a class="text-capitalize" href="{{site.baseurl}}/category/{{category_name}}/">{{ category_name | replace: "-", " " }}</a>
+              <a class="text-capitalize" href="{{site.baseurl}}{{post.url}}">{{site.title}}</a>
             </li>
             {% endfor %}
         </ul>

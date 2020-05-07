@@ -26,14 +26,14 @@ title: 趨勢觀點
                         <h2 class="blog-title">
                             <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
                         </h2>
-                        <p>{{post.description | truncatewords:"30"}}</p>
+                        <p>{{post.description | truncatewords:"10"}}</p>
                     </div>
                     <div class="link-box">
                         <a href="{{site.baseurl}}{{post.url}}">了解更多</a>
                     </div>
                 </div>
               {% endfor %}
-             {% include pagination.html %}
+             <!-- {% include pagination.html %} -->
             </div>
             <div class="col-lg-4 sm-mt sidebar-blog right-side">
              {% include sidebar.html %}

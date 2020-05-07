@@ -2,12 +2,13 @@
 layout: post
 title: "你還在累積標準化的大數據嗎？"
 date: 2019-03-10 20:37:13 +0600
-tags: wordpress hosting
+tags: [wordpress, hosting]
 categories: [wordpress]
 author: themeix
 post_image: "/assets/img/blog/09.jpg"
 description: "如果你的營業數據和競業相同，代表你們經營顧客的方式也一樣嗎？若答案是否定的，那精確掌握重點顧客的差異化，才是比掌握大量數據更值得重視的關鍵。​"
 ---
+
 <div class="post-content">
   <h4>你還在累積標準化的大數據嗎？</h4>
     <p>Must explain to you how all this mistaken idea of denouncing pleasure and praising pain

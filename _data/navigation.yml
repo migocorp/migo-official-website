@@ -14,7 +14,7 @@
 - text: 成功案例
   url: /migo-official-website/pages/success_case
 - text: 趨勢觀點
-  url: /migo-official-website/pages/blog/
+  url: /migo-official-website/pages/blog
 #  url: /migo-official-website/welcome-to-jekyll
 - text: 聯絡我們
   url: /migo-official-website/pages/contact

@@ -3,11 +3,12 @@ layout: post
 title: "為你的品牌重新開機"
 date: 2019-04-08 15:12:09 +0600
 tags: jekyll
-categories: [jekyll update]
+categories: [jekyll, update]
 author: monica_powell
 post_image: "/assets/img/blog/03.jpg"
 description: "IGO不是大數據分析工具的提供者，而是品牌企業經營顧客的強力後盾！有了MIGO，就像擁有一位內部專屬的數據行銷顧問！"
 ---
+
 <div class="post-content">
   <h4>為你的品牌重新開機</h4>
   <p>
