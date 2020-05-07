@@ -35,8 +35,6 @@ collections:
     output: true
   success_cases:
     output: true
-  categories:
-    output: true
 
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem

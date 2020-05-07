@@ -1,0 +1,78 @@
+---
+layout: page
+title: category
+pagination:
+enabled: true
+categoryName: jekyll
+---
+<section class="service-area pt-100 pb-50">
+    <div class="container">
+        <div class="row">
+            <!-- {% assign health_category = health_items | where: "categories", "health" %}
+            {% for post in site.posts %}
+            <div class="col-md-6 mb-50 ">
+                <div class="services-box">
+                    {% if post.post_image %}
+                    <div class="services-img">
+                        <img src="{{site.baseurl}}{{post.post_image}}" class="img-fluid" alt="{{post.title}}">
+                    </div>
+                    {% endif %}
+                    <div class="services-content">
+                        <div class="card-title">
+                            <h2 class="blog-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
+                        </div>
+                        <div class="card-text">
+                            <p>{{post.description | truncatewords:"20"}}</p>
+                        </div>
+                        <div class="btn-wrap">
+                            <a href="{{site.baseurl}}{{post.url}}" class="btn">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %} -->
+            {% assign health_category = site.posts | where: "categories", "jekyll" %}
+            {% for product in health_category %}
+            <div class="col-md-6 mb-50 ">
+                <div class="services-box">
+                    {% if product.post_image %}
+                    <div class="services-img">
+                        <img src="{{site.baseurl}}{{product.post_image}}" class="img-fluid" alt="{{product.title}}">
+                    </div>
+                    {% endif %}
+                    <div class="services-content">
+                        <div class="card-title">
+                            <h2 class="blog-title"><a href="{{site.baseurl}}{{product.url}}">{{product.title}}</a></h2>
+                        </div>
+                        <div class="card-text">
+                            <p>{{product.description | truncatewords:"20"}}</p>
+                        </div>
+                        <div class="btn-wrap">
+                            <a href="{{site.baseurl}}{{product.url}}" class="btn">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- services-cta -->
+<!-- <section class="services-cta grey-bg pt-50 pb-20">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-9 mb-30">
+                <div class="call-to-action">
+                    <h3>We Are Honest & Hard Working Team</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-30">
+                <div class="call-to-action">
+                    <a href="#" class="btn">download now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- counter-area -->
