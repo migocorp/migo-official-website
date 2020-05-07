@@ -3,11 +3,11 @@
     <h4 class="widget-title">Recent Posts</h4>
     <div class="sidebar-rc-post">
         <ul>
-           {% for post in site.posts limit:"5" %}
+            {% for post in site.posts limit:"5" %}
             <li>
                 <div class="rc-post-thumb">
                     <a href="{{site.baseurl}}{{post.url}}">
-                        <img src="{{site.baseurl}}{{post.post_image}}" alt="{{post.title}}"/>
+                        <img src="{{site.baseurl}}{{post.post_image}}" alt="{{post.title}}" />
                     </a>
                 </div>
                 <div class="rc-post-content">
@@ -17,7 +17,7 @@
                     <div class="widget-date">{{post.date | date_to_long_string}}</div>
                 </div>
             </li>
-           {% endfor %}
+            {% endfor %}
         </ul>
     </div>
 </div>
@@ -25,22 +25,23 @@
 <div class="widget">
     <h4 class="widget-title">Banner Advertise</h4>
     <div class="widget-banner">
-      {% include advertise.html %}
+        {% include advertise.html %}
     </div>
 </div>
 
 <div class="widget">
     <h4 class="widget-title">Categories</h4>
     <div class="widget-link">
-        <ul class="sidebar-link">
-          {% for category in site.categories %}
-          <h3>{{ category[0] }}</h3>
-          {% for post in category[1] %}
-            <li>
-              <a class="text-capitalize" href="{{site.baseurl}}{{post.url}}">{{site.title}}</a>
-            </li>
-            {% endfor %}
-        </ul>
+            {% for category in site.categories %}
+            <h3><a class="text-capitalize" href="{{site.baseurl}}/category/{{category[0]}}">{{ category[0] }}</a></h3>
+            <!-- <ul class="sidebar-link"> -->
+            <!-- {% for post in category[1] %} -->
+                <!-- <li>
+                    <a class="text-capitalize" href="{{site.baseurl}}/category/{{category[0]}}">{{category[0]}}</a>
+                </li> -->
+            <!-- {% endfor %} -->
+            <!-- </ul> -->
+        {% endfor %}
     </div>
 </div>
 <div class="widget">
@@ -51,4 +52,3 @@
         </div>
     </div>
 </div>
-

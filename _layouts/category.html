@@ -20,7 +20,7 @@ enabled: true
                             <h2 class="blog-title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
                         </div>
                         <div class="card-text">
-                            <p>{{post.excerpt | strip_html | truncatewords:"30"}}</p>
+                            <p>{{post.description | truncatewords:"10"}}</p>
                         </div>
                         <div class="btn-wrap">
                             <a href="{{site.baseurl}}{{post.url}}" class="btn">了解更多</a>
@@ -33,7 +33,7 @@ enabled: true
     </div>
 </section>
 <!-- services-cta -->
-<section class="services-cta grey-bg pt-50 pb-20">
+<!-- <section class="services-cta grey-bg pt-50 pb-20">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-9 mb-30">
@@ -49,5 +49,5 @@ enabled: true
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- counter-area -->
