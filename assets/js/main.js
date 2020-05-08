@@ -302,7 +302,6 @@
     $('body').append(temp);
 
     var url = $(this).data('url');
-console.log(url)
     temp.val(url).select();
 
     document.execCommand('copy');
