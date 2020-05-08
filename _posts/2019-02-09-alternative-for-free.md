@@ -5,6 +5,7 @@ date: 2019-02-09 20:37:13 +0600
 tags: [technology, education]
 categories: [tech]
 author: themeix
+link: "/alternative-for-free"
 post_image: "/assets/img/blog/02.jpg"
 description: "Accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero Lorem ipsum dolor sit amet..."
 ---

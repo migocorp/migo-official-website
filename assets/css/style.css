@@ -1645,12 +1645,16 @@ label {
 .blog-social-item a.i-email {
 	color: #666;
 }
-.blog-social-item a.i-link {
+.blog-social-item div.i-link {
 	color: #fff;
     border-radius: 4px;
-    background-color: #666;
+	background-color: #666;
+	cursor: pointer;
 }
-.blog-social-item a.i-link i{
+.blog-social-item div.i-link:active {
+	background-color: #3F51B5;
+}
+.blog-social-item div.i-link i {
 	padding:5px;
 	font-size: 21px;
 }
@@ -1661,6 +1665,9 @@ label {
 }
 .post-content {
 	text-align: left;
+}
+.post-content h4 {
+	width: 65%;
 }
 .post-content p {
 	color: #444;

@@ -295,6 +295,19 @@
   //   });
   // }
 
+  // click button to copy
+  $('[data-trigger="copy"]').on('click', function(e) {
+    var temp = $('<input>');
+ 
+    $('body').append(temp);
 
+    var url = $(this).data('url');
+console.log(url)
+    temp.val(url).select();
+
+    document.execCommand('copy');
+
+    temp.remove();
+  });
 
 })(jQuery);

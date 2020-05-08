@@ -5,6 +5,7 @@ date: 2019-03-09 20:37:13 +0600
 tags: [wordpress, hosting]
 categories: [education, tech]
 author: aaron_potts
+link: "/html5-static-site"
 post_image: "/assets/img/blog/05.jpg"
 description: "在數位爆發時代，許多品牌企業似乎都被大數據服務公司教育「標籤」的重要性，積極抱著現金找標籤。但弔詭的是，如何知道你現在下的標籤真的對你檢視行銷成效有幫助？根據為何？如果無法確定，那麼數據分析再龐大再精密，也不代表一定能變現。​"
 ---

@@ -5,6 +5,7 @@ date: 2019-02-09 20:37:13 +0600
 tags: [technology, education]
 categories: [tips, tech]
 author: ecuelass_chapman
+link: "/free-themes"
 post_image: "/assets/img/blog/08.jpg"
 description: "libero pede suscipit, tincidunt amet ultricies vitae dui tempor..."
 ---

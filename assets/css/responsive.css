@@ -282,7 +282,14 @@ blockquote {
 .comments-avatar img {
 	width: 100%;
 }
-
+.post-content h4 {
+	width: 100%;
+}
+.blog-social-area {
+	position: inherit;
+	text-align: right;
+	margin-bottom: 5px;
+}
 
 }
 /* SM Small Device :550px. */

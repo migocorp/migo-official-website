@@ -5,6 +5,7 @@ date: 2019-02-01 20:37:13 +0600
 tags: [technology, education]
 categories: [health]
 author: "ecuelass_chapman"
+link: "/seo-friendly-post"
 post_image: "/assets/img/blog/01.jpg"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo non labore totam tempora sed neque repellat numquam eaque inventore! Iusto saepe ipsum, ex, commodi asperiores iure dolores amet dolorem eos voluptatum, aliquid incidunt non perferendis earum dignissimos quod..."
 ---
