@@ -290,6 +290,12 @@ blockquote {
 	text-align: right;
 	margin-bottom: 5px;
 }
+.btn-fixR {
+	position: initial;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
 
 }
 /* SM Small Device :550px. */
