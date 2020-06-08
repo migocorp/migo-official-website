@@ -3,13 +3,13 @@
 - text: 服務項目
   url: /migo-official-website/pages/services-details
   submenu:
-  - text: Ｍigo平台
+  - text: Migo顧客數據平台
     url: /migo-official-website/pages/services-details#migo-platform
-  - text: CRM顧問
+  - text: 品牌／行銷專屬顧問
     url: /migo-official-website/pages/services-details#migo-crm-adviser
-  - text: 數據服務
+  - text: 專業數據整合服務
     url: /migo-official-website/pages/services-details#migo-data-service
-  - text: 行銷活動操作
+  - text: 數據生態鏈
     url: /migo-official-website/pages/services-details#migo-crm-marketing-operating
 - text: 成功案例
   url: /migo-official-website/pages/success_case

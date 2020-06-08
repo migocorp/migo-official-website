@@ -1,10 +1,10 @@
 ---
 layout: featured
-title: MIGO平台
+title: Migo顧客數據平台
 image: /assets/img/services/01.jpg
 link: /pages/services-details.html#migo-platform
 icon: /assets/img/icons/layer-group-solid.svg
-description: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
+description: 為你整合不同行銷平台的數據，​讓品牌能快速掌握經營成效、標籤分類、篩選名單，​輕鬆分析與建立行銷活動。
 ---
 
 

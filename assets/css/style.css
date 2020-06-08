@@ -193,6 +193,13 @@ label {
 	vertical-align: middle;
 	white-space: nowrap;
 }
+.btn-fixR {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 18px;
+	padding: 20px;
+}
 .btn:hover{
 	color: #fff;
 }
@@ -647,6 +654,9 @@ label {
 	background: #000;
 	opacity: .7;
 }
+.slider-bg.slider-opacity-light::before {
+	opacity: 0;
+}
 .slider-two-bg{
 	height: 810px;
 	background-size: cover;
@@ -662,7 +672,7 @@ label {
 	opacity: .7;
 }
 .slider-content h1 {
-	font-size: 72px;
+	font-size: 60px;
 	font-weight: 800;
 	color: #fff;
 	line-height: 1;
@@ -672,10 +682,12 @@ label {
 	color: #2f4d92;
 }
 .slider-content p {
-	font-size: 16px;
+	font-size: 23px;
 	color: #fff;
-	line-height: 28px;
 	margin-bottom: 35px;
+}
+.slider-content p.lineH {
+	line-height: 17px;
 }
 /* slider next-prev button */
 
@@ -813,10 +825,12 @@ label {
 .features-wrap a {
 	font-size: 14px;
 	font-weight: 600;
-	color: #2f4d92;
+	color: #fff;
 	position: absolute;
 	right: 38px;
 	bottom: 10px;
+	padding: 5px 10px;
+	background-color: #2f4d92;
 }
 .home-three-about {
 	margin-top: -150px;

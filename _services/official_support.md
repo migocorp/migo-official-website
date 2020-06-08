@@ -1,10 +1,10 @@
 ---
 layout: featured
-title: 行銷活動操作
+title: 數據生態鏈
 icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
 image: /assets/img/services/02.jpg
 link: /pages/services-details.html#migo-crm-marketing-operating
-description: Dedicated support quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
+description: 提供與客戶經營息息相關的軟體服務，​如客服系統、點數系統、POS、電商、門市小幫手等，幫助你順利經營、蒐羅各項數據。​
 ---
 
 <div class="row">

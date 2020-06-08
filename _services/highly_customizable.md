@@ -1,10 +1,10 @@
 ---
 layout: featured
-title: 數據服務
+title: 專業數據整合服務
 icon: /assets/img/icons/air-freshener-solid.svg
 image: /assets/img/services/03.jpg
 link: /pages/services-details.html#migo-data-service
-description: Highly customizable parturient denouncing pleasure and praising pain was born and I will give you a complete.
+description: 將品牌擁有的數據串接至Migo顧客數據平台、​清整異常數據並歸戶，或依照品牌目標提供數據的洞察只要數據有關的大小事，都是我們的專業。
 ---
 
 <div class="row">

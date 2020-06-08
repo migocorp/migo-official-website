@@ -1,10 +1,10 @@
 ---
 layout: featured
-title: CRM顧問
+title: 品牌／行銷專屬顧問
 icon: /assets/img/icons/algolia-brands.svg
 image: /assets/img/services/02.jpg
 link: /pages/services-details.html#migo-crm-adviser
-description: Condimentum consectetur quaerat parturient denouncing pleasure and praising pain was born and I will give you a complete.
+description: 從最核心的品牌策略擬定，到行銷策略規劃、甚至執行後的成效分析，我們都能提供專屬建議與執行服務。​
 ---
 
 <div class="row">
