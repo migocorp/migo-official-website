@@ -1,6 +1,6 @@
 ---
 layout: featured
-title: 專業數據整合服務
+title: 數據整合服務
 icon: /assets/img/icons/air-freshener-solid.svg
 image: /assets/img/services/03.jpg
 link: /pages/services-details.html#migo-data-service

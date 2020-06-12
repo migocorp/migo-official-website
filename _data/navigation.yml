@@ -7,14 +7,14 @@
     url: /migo-official-website/pages/services-details#migo-platform
   - text: 品牌／行銷專屬顧問
     url: /migo-official-website/pages/services-details#migo-crm-adviser
-  - text: 專業數據整合服務
+  - text: 數據整合服務
     url: /migo-official-website/pages/services-details#migo-data-service
   - text: 數據生態鏈
     url: /migo-official-website/pages/services-details#migo-crm-marketing-operating
 - text: 成功案例
-  url: /migo-official-website/pages/success_case
+# url: /migo-official-website/pages/success_case
 - text: 趨勢觀點
-  url: /migo-official-website/pages/blog
+#  url: /migo-official-website/pages/blog
 #  url: /migo-official-website/welcome-to-jekyll
 - text: 聯絡我們
   url: /migo-official-website/pages/contact
