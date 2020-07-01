@@ -41,7 +41,7 @@ blockquote {
 	padding: 0 100px;
 }
 .about-info-text p {
-	padding: 0 60px;
+	padding: 0 0px;
 }
 .features-wrap {
 	padding: 40px 30px;
@@ -97,7 +97,7 @@ blockquote {
 	padding: 0 10px;
 }
 .section-title.service-title p {
-	padding: 0 0px;
+	padding: 0 ;
 }
 .single-cta i {
 	margin-top: 6px;
@@ -302,7 +302,8 @@ blockquote {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
 .about-info-text h2 {
-	font-size: 35px;
+	font-size: 28px;
+	line-height: 36px;
 }
 .slider-content h1 {
 	font-size: 40px;
