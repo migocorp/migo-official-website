@@ -4,7 +4,10 @@
 .wrapper-box.wrapper-padding {
 	padding: 0 20px;
 }
-
+.about-info-text h2 {
+	padding: 0 100px;
+	line-height: 30px;
+}
 
 
 
@@ -128,6 +131,10 @@ blockquote {
 .features-wrap {
 	padding: 40px 30px;
 }
+.about-info-text h2 {
+	font-size: 32px;
+	line-height: 38px;
+}
 .client-text {
 	padding: 0 ;
 }
@@ -212,6 +219,7 @@ blockquote {
 }
 .about-info-text h2 {
 	font-size: 24px;
+	line-height: 30px;
 }
 .about-info-text p {
 	padding: 0;
