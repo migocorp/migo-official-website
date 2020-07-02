@@ -1,5 +1,5 @@
 /* XL Device :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
 
 .wrapper-box.wrapper-padding {
 	padding: 0 20px;
@@ -45,6 +45,9 @@ blockquote {
 }
 .about-info-text p {
 	padding: 0 0px;
+}
+.about-info-text h2 {
+	line-height: 30px;
 }
 .features-wrap {
 	padding: 40px 30px;
