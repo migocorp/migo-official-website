@@ -5,11 +5,8 @@ layout: default
 <main>
     <!-- breadcrumb-area -->
     {% if page.title == '關於我們' %}  
-    <!-- <div> -->
-        <!-- <h3 style="position: absolute;">關於我們</h3> -->
     <section class="breadcrumb-area black-bg" style="background-image:url({{site.cover_image_about}})">
-    <!-- </div> -->
-            {% elsif page.title == '服務項目' %}
+    {% elsif page.title == '服務項目' %}
     <section class="breadcrumb-area grey-bg" style="background-image:url({{site.cover_image_service}})">
     {% elsif page.title == '聯絡我們' %}
     <section class="breadcrumb-area grey-bg" style="background-image:url({{site.cover_image_contact}})">
