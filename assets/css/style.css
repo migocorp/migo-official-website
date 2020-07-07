@@ -165,10 +165,12 @@ li {
 p {
     font-size: 18px;
     font-weight: normal;
-    line-height: 26px;
+    line-height: 36px;
     color: #7e7e7e;
     margin-bottom: 15px;
     padding: 0 10px;
+    text-align:justify;
+    width: 98%;
 }
 
 hr {
