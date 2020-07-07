@@ -163,7 +163,7 @@ li {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: normal;
     line-height: 26px;
     color: #7e7e7e;
@@ -955,9 +955,10 @@ label {
 }
 
 .about-info-text p {
-    padding: 0 100px;
-    font-size: 18px;
-    margin-bottom: 26px;
+    /* padding: 0 100px; */
+    font-size: 20px;
+    margin-bottom: 26px;    
+    line-height: 1.5;
 }
 
 .about-content p {
@@ -1289,7 +1290,7 @@ label {
 }
 
 .service-details h3 {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
 }
 
