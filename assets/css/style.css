@@ -1869,6 +1869,10 @@ label {
     color: #fff;
 }
 
+.breadcrumb-title img {
+    filter: brightness(50%);
+
+}
 .breadcrumb li {
     display: inline-block;
 }
