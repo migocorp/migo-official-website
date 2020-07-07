@@ -26,6 +26,8 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-archives
 cover_image: "/migo-official-website/assets/img/bg/page-title.jpg"
+cover_image_about: "/migo-official-website/assets/img/bg/page-title-about.jpg"
+cover_image_service: "/migo-official-website/assets/img/bg/page-title-service.jpg"
 
 #collections
 collections:

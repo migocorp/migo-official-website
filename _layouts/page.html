@@ -4,7 +4,13 @@ layout: default
 {% include header.html %}
 <main>
     <!-- breadcrumb-area -->
+    {% if page.title == '關於我們' %}
+    <section class="breadcrumb-area grey-bg" style="background-image:url({{site.cover_image_about}})">
+    {% elsif page.title == '服務項目' %}
+    <section class="breadcrumb-area grey-bg" style="background-image:url({{site.cover_image_service}})">
+    {% else %}
     <section class="breadcrumb-area grey-bg" style="background-image:url({{site.cover_image}})">
+    {% endif %}
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-8 col-md-6">
