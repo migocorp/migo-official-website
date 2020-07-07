@@ -168,6 +168,7 @@ p {
     line-height: 26px;
     color: #7e7e7e;
     margin-bottom: 15px;
+    padding: 0 10px;
 }
 
 hr {
@@ -956,7 +957,7 @@ label {
 
 .about-info-text p {
     /* padding: 0 100px; */
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 26px;    
     line-height: 1.5;
 }
@@ -1292,6 +1293,7 @@ label {
 .service-details h3 {
     font-size: 26px;
     font-weight: 700;
+    padding: 0 10px;
 }
 
 .service-details img {
