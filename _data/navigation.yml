@@ -1,25 +1,25 @@
 #Please use the main menu items under the "text"
 
 - text: 服務項目
-  url: /migo-official-website/pages/services-details
+  url: /pages/services-details
   submenu:
   - text: Migo顧客數據平台
-    url: /migo-official-website/pages/services-details#migo-platform
+    url: /pages/services-details#migo-platform
   - text: 品牌／行銷專屬顧問
-    url: /migo-official-website/pages/services-details#migo-crm-adviser
+    url: /pages/services-details#migo-crm-adviser
   - text: 數據整合服務
-    url: /migo-official-website/pages/services-details#migo-data-service
+    url: /pages/services-details#migo-data-service
   - text: 數據生態鏈
-    url: /migo-official-website/pages/services-details#migo-crm-marketing-operating
+    url: /pages/services-details#migo-crm-marketing-operating
 #- text: 成功案例
-# url: /migo-official-website/pages/success_case
+# url: /pages/success_case
 #- text: 趨勢觀點
-#  url: /migo-official-website/pages/blog
-#  url: /migo-official-website/welcome-to-jekyll
+#  url: /pages/blog
+#  url: /welcome-to-jekyll
 - text: 關於我們
-  url: /migo-official-website/pages/about
+  url: /pages/about
 - text: 聯絡我們
-  url: /migo-official-website/pages/contact
+  url: /pages/contact
 # - text: Pages
 #   url: /
 #   submenu:
