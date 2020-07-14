@@ -2,9 +2,9 @@ title: "Migo 官方網站"
 email: "themeaffairs@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
  Migo 官方網站
-baseurl: "/migo-official-website" # the subpath of your site, e.g. /blog
+baseurl: "https://www.migocorp.com/migo-official-website" # the subpath of your site, e.g. /blog
 #url: "https://migocorp.github.io/migo-official-website/" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
-url: "https://www.migocorp.com" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
+url: "https://www.migocorp.com/migo-official-website" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: https://www.facebook.com/jekyll
 twitter_url: https://twitter.com/tryghost
 github_url:  https://github.com/TryGhost/Ghost
