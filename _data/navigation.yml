@@ -13,8 +13,8 @@
     url: /migo-official-website/pages/services-details#migo-crm-marketing-operating
 #- text: 成功案例
 # url: /migo-official-website/pages/success_case
-#- text: 趨勢觀點
-#  url: /migo-official-website/pages/blog
+- text: 趨勢觀點
+  url: /migo-official-website/pages/blog
 #  url: /migo-official-website/welcome-to-jekyll
 - text: 關於我們
   url: /migo-official-website/pages/about
