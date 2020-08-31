@@ -296,9 +296,9 @@
   // }
 
   // click button to copy
-  $('[data-trigger="copy"]').on('click', function(e) {
+  $('[data-trigger="copy"]').on('click', function (e) {
     var temp = $('<input>');
- 
+
     $('body').append(temp);
 
     var url = $(this).data('url');

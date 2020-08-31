@@ -1,10 +1,13 @@
 /* XL Device :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
 
 .wrapper-box.wrapper-padding {
 	padding: 0 20px;
 }
-
+.about-info-text h2 {
+	/* padding: 0 100px; */
+	line-height: 30px;
+}
 
 
 
@@ -41,7 +44,10 @@ blockquote {
 	padding: 0 100px;
 }
 .about-info-text p {
-	padding: 0 60px;
+	padding: 0 0px;
+}
+.about-info-text h2 {
+	line-height: 30px;
 }
 .features-wrap {
 	padding: 40px 30px;
@@ -97,7 +103,7 @@ blockquote {
 	padding: 0 10px;
 }
 .section-title.service-title p {
-	padding: 0 0px;
+	padding: 0 ;
 }
 .single-cta i {
 	margin-top: 6px;
@@ -127,6 +133,10 @@ blockquote {
 }
 .features-wrap {
 	padding: 40px 30px;
+}
+.about-info-text h2 {
+	font-size: 32px;
+	line-height: 38px;
 }
 .client-text {
 	padding: 0 ;
@@ -212,6 +222,7 @@ blockquote {
 }
 .about-info-text h2 {
 	font-size: 24px;
+	line-height: 30px;
 }
 .about-info-text p {
 	padding: 0;
@@ -302,7 +313,8 @@ blockquote {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
 .about-info-text h2 {
-	font-size: 35px;
+	font-size: 28px;
+	line-height: 36px;
 }
 .slider-content h1 {
 	font-size: 40px;

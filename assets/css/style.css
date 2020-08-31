@@ -163,11 +163,14 @@ li {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: normal;
-    line-height: 26px;
+    line-height: 36px;
     color: #7e7e7e;
     margin-bottom: 15px;
+    padding: 0 10px;
+    text-align:justify;
+    width: 98%;
 }
 
 hr {
@@ -955,9 +958,10 @@ label {
 }
 
 .about-info-text p {
-    padding: 0 100px;
+    /* padding: 0 100px; */
     font-size: 18px;
-    margin-bottom: 26px;
+    margin-bottom: 26px;    
+    line-height: 1.5;
 }
 
 .about-content p {
@@ -1289,8 +1293,9 @@ label {
 }
 
 .service-details h3 {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
+    padding: 0 10px;
 }
 
 .service-details img {
@@ -1864,6 +1869,10 @@ label {
     color: #fff;
 }
 
+.breadcrumb-title img {
+    filter: brightness(50%);
+
+}
 .breadcrumb li {
     display: inline-block;
 }
