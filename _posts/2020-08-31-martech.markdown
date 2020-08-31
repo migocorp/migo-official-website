@@ -2,8 +2,8 @@
 layout: post
 title: "掌握 Martech，搭上科技行銷的新湧流【上】"
 date: 2020-08-31 14:45:09 +0800
-tags: jekyll
-categories: [jekyll, update]
+tags: martech
+categories: [martech]
 author: monica_powell
 link: "/martech"
 post_image: "/assets/img/blog/Martech1.jpg"
