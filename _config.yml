@@ -2,7 +2,7 @@ title: "Migo 功典資訊"
 email: "themeaffairs@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
  Migo 功典資訊
-# baseurl: "https://www.migocorp.com/" # the subpath of your site, e.g. /blog
+baseurl: "https://www.migocorp.com/" # the subpath of your site, e.g. /blog
 #url: "https://migocorp.github.io/migo-official-website/" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 url: "https://www.migocorp.com/" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: https://www.facebook.com/jekyll
