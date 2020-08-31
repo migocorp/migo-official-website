@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "掌握 Martech，搭上科技行銷的新湧流【上】"
-date: 2020-09-01 15:12:09 +0600
-tags: Martech
+date: 2020-08-31 14:45:09 +0800
+tags: jekyll
 categories: [jekyll, update]
-author: Clement
+author: monica_powell
 link: "/martech"
 post_image: "/assets/img/blog/Martech1.jpg"
-description: "近年來行銷圈中的新名詞「Martech」，逐漸成為行銷人高度關注的熱門話題"
+description: "近年來行銷圈中的新名詞「Martech」，逐漸成為行銷人高度關注的熱門話題，「Martech」是來自「Marketing」與「Technology」的結合，泛指能夠幫助行銷的工具或科技技術，隨著數位行銷工具的快速演進，企業仰賴科技來推廣產品的緊密程度已經難以分割，也因此衍生出全新的行銷概念。 ​"
 ---
 
 <div class="post-content">
