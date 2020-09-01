@@ -2034,7 +2034,7 @@ label {
 
 #copy-wrap {
     position: relative;
-    min-width: 65px;
+    min-width: 100px;
     text-align: right;
 }
 

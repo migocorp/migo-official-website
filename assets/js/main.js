@@ -312,7 +312,7 @@
   */
   $('[data-trigger="copy"]').on('click', function (e) {
     var temp = $('<input>');
-    var popup = $('<div style="position: absolute;bottom: 35px;right: 0;background-color: #0d5ba3;padding: 3px;border-radius: 3px;">複製成功</div>');
+    var popup = $('<div style="position: absolute;bottom: 35px;right: 0;background-color: #0d5ba3;padding: 3px;border-radius: 3px;">連結複製成功</div>');
     $('body').append(temp);
     $('[data-trigger="copy"]').append(popup);
 
