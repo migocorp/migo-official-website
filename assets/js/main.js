@@ -296,6 +296,7 @@
   // }
 
   // click button to copy
+  /*
   $('[data-trigger="copy"]').on('click', function (e) {
     var temp = $('<input>');
 
@@ -307,6 +308,21 @@
     document.execCommand('copy');
 
     temp.remove();
+  });
+  */
+  $('[data-trigger="copy"]').on('click', function (e) {
+    var temp = $('<input>');
+    var popup = $('<div style="position: absolute;bottom: 35px;right: 0;background-color: #0d5ba3;padding: 3px;border-radius: 3px;">複製成功</div>');
+    $('body').append(temp);
+    $('[data-trigger="copy"]').append(popup);
+
+    //console.dir(url[0].location.href)
+    temp.val(wind[0].location.href).select();
+
+    document.execCommand('copy');
+
+    temp.remove();
+    setTimeout(function () { popup.remove(); }, 1000);
   });
 
 })(jQuery);

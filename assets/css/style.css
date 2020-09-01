@@ -2032,6 +2032,12 @@ label {
     vertical-align: middle;
 }
 
+#copy-wrap {
+    position: relative;
+    min-width: 65px;
+    text-align: right;
+}
+
 .blog-social-item i {
     font-size: 35px;
 }
