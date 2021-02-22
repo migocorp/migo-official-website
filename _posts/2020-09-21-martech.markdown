@@ -5,7 +5,7 @@ date: 2020-09-21 18:10:00 +0800
 tags: martech
 categories: [martech]
 author: monica_powell
-permalink: "pages/blog/2020-09-21"
+permalink: "pages/blog/科技行銷的新湧流_下"
 post_image: "/assets/img/blog/Martech2.jpg"
 description: "在大致理解數位行銷的基本觀念與核心價值後，接著需要掌握的，便是如何在 CRM 中妥善運用數據支援，精準體現 Martech 的原則。​​"
 ---
