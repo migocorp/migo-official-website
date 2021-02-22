@@ -3,7 +3,7 @@ layout: featured
 title: 數據生態鏈
 icon: /assets/img/icons/american-sign-language-interpreting-solid.svg
 image: /assets/img/services/02.jpg
-link: /pages/services-details.html#migo-crm-marketing-operating
+link: /pages/services-details#migo-crm-marketing-operating
 description: 提供與客戶經營息息相關的軟體服務，​如客服系統、點數系統、POS、電商、門市小幫手等，幫助你順利經營、蒐羅各項數據。​
 ---
 
