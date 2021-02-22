@@ -1730,6 +1730,14 @@ label {
     position: relative;
 }
 
+.footer-widget-heading h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+
 .footer-widget-heading h3::before {
     content: "";
     position: absolute;
@@ -1760,6 +1768,14 @@ label {
 }
 
 .footer-widget h3 a {
+    color: #fff;
+}
+
+.footer-widget h5 {
+    font-size: 20px;
+}
+
+.footer-widget h5 a {
     color: #fff;
 }
 
