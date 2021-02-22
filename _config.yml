@@ -26,7 +26,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
-cover_image: "https://www.migocorp.com/assets/img/bg/page-title.jpg"
+cover_image: "https://www.migocorp.com/assets/img/bg/migo_logo_art_101.jpg"
 cover_image_about: "https://www.migocorp.com/assets/img/bg/page-title-about.jpg"
 cover_image_service: "https://www.migocorp.com/assets/img/bg/page-title-service.jpg"
 cover_image_contact: "https://www.migocorp.com/assets/img/bg/page-title-contact.jpg"
