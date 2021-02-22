@@ -1305,9 +1305,15 @@ label {
     padding: 25px;
 }
 
-.service-details h3 {
-    font-size: 26px;
+.service-details h2 {
+    font-size: 30px;
     font-weight: 700;
+    padding: 0 10px;
+}
+
+.service-details h3 {
+    font-size: 23px;
+    font-weight: 500;
     padding: 0 10px;
 }
 
@@ -1892,6 +1898,13 @@ label {
 }
 
 .breadcrumb-title h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+.breadcrumb-title h1 {
     margin: 0;
     text-transform: uppercase;
     font-weight: 600;
