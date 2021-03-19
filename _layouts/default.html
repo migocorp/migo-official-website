@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
+    {% if page.url %}<link rel="canoncial" href="{{ site.url }}{{ page.url }}" />{% endif %}    
     <!-- JSON-LD -->
     <script type="application/ld+json">
         {
