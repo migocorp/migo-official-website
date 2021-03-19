@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  掌握數據關鍵，CRM客戶關係管理平台，創造以人為本的行銷謀略
 baseurl: "https://www.migocorp.com" # the subpath of your site, e.g. /blog
 #url: "https://migocorp.github.io/migo-official-website/" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
-url: "https://www.migocorp.com/" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
+url: "https://www.migocorp.com" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: https://www.facebook.com/jekyll
 twitter_url: https://twitter.com/tryghost
 github_url:  https://github.com/TryGhost/Ghost
