@@ -15,11 +15,17 @@
         {% endif %}
 
         <li>
-            <a href="{{link.url}}">{{link.text}}{% if link.submenu %}<i class="icofont-simple-down"></i>{% endif %}</a>
+            <a href="{{link.url}}">{{link.text}}{% if link.submenu or link.url == "/pages/blog" %}<i class="icofont-simple-down"></i>{% endif %}</a>
             {% if link.submenu %}
             <ul class="sub-menu">
                 {% for sublink in link.submenu %}
                 <li><a href="{{sublink.url}}">{{sublink.text}}</a></li>
+                {% endfor %}
+            </ul>
+            {% elsif link.url == "/pages/blog" %}
+            <ul class="sub-menu">
+                {% for post in site.posts reversed %}
+                <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
                 {% endfor %}
             </ul>
             {% endif %}

@@ -58,7 +58,7 @@ description: "Martech之父Scott Brinker曾說：「結合行銷、科技及管�
   <div class="blog-thumb">
     <img src="/assets/img/blog/Martech6_1.jpg" alt="Martech案例：語音搜尋優化"/>​
   </div>
-    隨著「Siri」、「<a href="https://zh.wikipedia.org/zh-tw/Google%E5%8A%A9%E7%90%86" target="blank">Google assisstant</a>」等語音助理技術逐漸成熟，Google的搜尋來源有將近1/3來自語音搜尋，因此在操作SEO時除了爭取排名之外，也要適時在內容中加入口語化的內文，讓語音搜尋更容易將使用者導向您的網站。  
+    隨著「Siri」、「<a href="https://zh.wikipedia.org/zh-tw/Google%E5%8A%A9%E7%90%86" target="_blank">Google assisstant</a>」等語音助理技術逐漸成熟，Google的搜尋來源有將近1/3來自語音搜尋，因此在操作SEO時除了爭取排名之外，也要適時在內容中加入口語化的內文，讓語音搜尋更容易將使用者導向您的網站。  
   </p>
   <p>
     2.Chatbot：線上客服即時解決問題 <br>
