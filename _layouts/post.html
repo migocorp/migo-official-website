@@ -40,7 +40,11 @@ layout: default
             <div class="col-lg-8 blog-post-items">
                 <div class="blog-wrapper mb-60">
                     <div class="blog-thumb">
-                        <img src="{{site.baseurl}}{{page.post_image}}" alt="{{page.title}}"/>
+                        {% if page.alt_image %}
+                            <img src="{{site.baseurl}}{{page.post_image}}" alt="{{page.alt_image}}"/>
+                        {% else %}
+                            <img src="{{site.baseurl}}{{page.post_image}}" alt="{{page.title}}"/>
+                        {% endif %}
                     </div>
                     <div class="blog-content">
                         <div class="blog-social-area">

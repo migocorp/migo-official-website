@@ -1,0 +1,83 @@
+---
+layout: post
+title: "Martech是什麼？認識6大領域及發展趨勢，規劃精準行銷策略"
+date: 2021-04-15 12:00:00 +0800
+tags: martech
+categories: [martech]
+author: monica_powell
+permalink: "pages/blog/Martech是什麼"
+post_image: "/assets/img/blog/Martech6.jpg"
+alt_image: "Martech中文意思：行銷科技"
+description: "Martech之父Scott Brinker曾說：「結合行銷、科技及管理的Martech將是..."
+---
+
+<div class="post-content">
+  <h4>Martech是什麼？認識6大領域及發展趨勢，規劃精準行銷策略</h4>
+  <br><br>
+  <p>
+    Martech之父<a href="https://en.wikipedia.org/wiki/Scott_Brinker" target="_blank">Scott Brinker</a>曾說：「結合行銷、科技及管理的Martech將是未來行銷的主流趨勢」。隨著網路資訊快速流通，廣告與行銷領域也越來越競爭，將科技技術結合行銷策略成為行銷發展的重要指標。究竟Martech是什麼？本文為您整理了Martech的6大領域、Martech發展趨勢以及Martech案例，幫助您掌握最新的Martech技術，為企業規劃精準行銷策略。 
+  </p>
+  <br>
+  <h6> Martech（行銷科技）是什麼？一次搞懂Martech的6大領域 </h6>
+  <p>
+    Martech是由「Marketing」與「Technology」結合而成，中文意思為行銷科技，可以簡單理解成「將科技技術導入行銷策略」的趨勢。隨著廣告紅利逐漸消失，科技技術逐漸成熟，Martech成為未來行銷發展的重要趨勢，掌握Martech技術的人將成為行銷的領跑者，接下來為您介紹Martech的6大領域，幫助您深入了解Martech。  
+  </p><br>
+  <p>
+    1.廣告與推廣（Advertising & Promotion）<br>
+    包含關鍵字廣告、<a href="https://support.google.com/google-ads/answer/2404190?hl=zh-Hant" target="_blank">GDN</a>、社群廣告等各種廣告形式，以科技技術精準規劃廣告投放策略，包含投放時間、TA輪廓及廣告素材等，提升廣告投放的成效。 
+  </p>
+  <p>
+    2.內容及使用者體驗（Content & Experience）<br>
+    內容經營是行銷策略中重要的環節，部落格文章、SEO、社群貼文、圖片、影片、UI及UX設計等，都會影響使用者體驗及整體行銷成效。 
+  </p>
+  <p>
+    3.社群與客戶關係管理（Social & Relationships）<br>
+    社群經營是客戶關係管理及粉絲互動的重要管道，Martech工具可以協助企業掌握粉絲組成、貼文成效，規劃合適的社群形象及素材。
+  </p>
+  <p>
+    4.商業與銷售（Commerce & Sales）<br>
+    自動化銷售系統、線上支付服務、聯盟行銷、電商行銷等都屬於Martech的範疇，透過Martech技術優化，除了提升銷售成效之外，也能改善企業內部作業效率。
+  </p>
+  <p>
+    5.數據應用（Data）<br>
+    數據應用是Martech最重要的基礎，在數位行銷時代裡，所有的策略規劃都需以數據為依據，才能精準分析成效，進而優化廣告、內容、銷售及客戶關係管理等策略。 
+  </p>
+  <p>
+    6.整合管理（Management）<br>
+    行銷規劃工具選擇很多，不同需求對應的數據及行銷策略也不一樣，必須將各項資源、平台及系統整合管理並精準分析，才能規劃完善的行銷策略。 
+  </p>​
+  <h6>
+    Martech案例分享，了解3個Martech公司發展趨勢
+  </h6>
+  <p>
+    接下來透過3個Martech的案例分享：語音助理、Chatbot及EDM，帶您了解Martech發展趨勢：  
+  </p>
+  <br>
+  <p>
+    1.語音助理：經營口語化內容<br>
+    隨著「Siri」、「<a href="https://zh.wikipedia.org/zh-tw/Google%E5%8A%A9%E7%90%86" target="blank">Google assisstant</a>」等語音助理技術逐漸成熟，Google的搜尋來源有將近1/3來自語音搜尋，因此在操作SEO時除了爭取排名之外，也要適時在內容中加入口語化的內文，讓語音搜尋更容易將使用者導向您的網站。  
+  </p>
+  <p>
+    2.Chatbot：線上客服即時解決問題 <br>
+    聊天機器人（Chatbot）是很常見的Martech工具應用，可以安裝於網站、App及社群平台上，即時解決客戶問題，除了可以拉近企業與消費者之間的距離，還能蒐集使用者資訊，精準執行客戶關係管理。  
+  </p>
+  <p>
+    3.EDM：高度個性化電子郵件 <br>
+    EDM一直都是再行銷、管理客戶關係、提升客戶黏著度的重要工具，透過Martech工具應用，可以藉由AI數據比對及經驗學習來優化發信時程、頻率及內容，提高開信率、增加TA黏著度、維持品牌忠誠度。
+  </p>
+  <br>
+  <h6>
+    Martech工具推薦｜功典資訊Migo顧客數據平台 
+  </h6>
+  <p>
+    <a href="{{site.baseurl}}/" target="_blank">Migo功典資訊</a>成立超過20年的時間，累積無數國際大型企業的數據服務經驗，致力於運用數據專業優化品牌決策，隨著行銷模式多元發展，我們不斷優化產品系統，為您提供最專業的Martech系統服務。本土設計的<a href="{{site.baseurl}}/pages/services-details" target="_blank">Migo顧客數據平台</a>可以串聯並精準解讀各項數據，幫助您掌握目標客群的想法與需求，擬訂精準行銷策略、收穫無盡效益。
+  </p><br><br>
+  <h6 class="extend">
+    延伸閱讀
+  </h6>
+  <p>
+    <a href="{{site.baseurl}}/pages/blog/CRM是什麼" target="_blank">CRM是什麼？企業培養死忠顧客、提升銷售表現的不二法門</a>
+    <br>
+    <a href="{{site.baseurl}}/pages/blog/改變行銷思維" target="_blank">Martech 如何在改變行銷市場中的廣告思維 </a>
+  </p>
+</div>
