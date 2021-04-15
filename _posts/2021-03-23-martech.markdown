@@ -81,5 +81,13 @@ description: "要在競爭市場中站穩腳步，鞏固利基市場是其中的
   </h6>
   <p>
     本土設計的<a href="https://www.migocorp.com/pages/services-details" target="_blank">Migo顧客數據平台</a>，可串聯各項數據，從中歸納分析，提供預測報告，幫助決策者精準、有效制定營運策略，培養出企業的死忠會員。目前已為國內多家知名品牌提供CRM服務，如有興趣歡迎<a href="https://www.migocorp.com/pages/contact" target="_blank">聯繫我們</a>。或中小企業想要為品牌導入數位化，也能從<a href="https://www.leadagilex.com/" target="_blank">LeadAgileX產業賦能加速平台</a>找到我們，LeadAgileX產業賦能加速平台擁有眾多數位轉型資源，幫助你打造數位化顧客管理系統，提高企業整體運作效率、提升銷售業績。
+  </p><br><br>
+  <h6 class="extend">
+    延伸閱讀
+  </h6>
+  <p>
+    <a href="{{site.baseurl}}/pages/blog/改變行銷思維" target="_blank">Martech 如何在改變行銷市場中的廣告思維 </a>
+    <br>
+    <a href="{{site.baseurl}}/pages/blog/Martech是什麼" target="_blank">Martech是什麼？認識6大領域及發展趨勢，規劃精準行銷策略</a>
   </p>
 </div>
