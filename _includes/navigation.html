@@ -24,7 +24,7 @@
             </ul>
             {% elsif link.url == "/pages/blog" %}
             <ul class="sub-menu">
-                {% for post in site.posts reversed %}
+                {% for post in site.posts %}
                 <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
                 {% endfor %}
             </ul>
