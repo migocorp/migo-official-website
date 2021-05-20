@@ -30,6 +30,7 @@
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700'); */
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,600,700|Poppins:300,400,500,600,700');
+
 body {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Noto Sans TC', sans-serif;
@@ -169,7 +170,7 @@ p {
     color: #7e7e7e;
     margin-bottom: 15px;
     /*padding: 0 10px;*/
-    text-align:justify;
+    text-align: justify;
     width: 98%;
 }
 
@@ -185,7 +186,7 @@ p {
     line-height: 36px;
     color: #444;
     margin-bottom: 15px;
-    text-align:justify;
+    text-align: justify;
     width: 98%;
     font-family: inherit;
     margin-bottom: 5px;
@@ -198,13 +199,13 @@ p {
 
 }
 
-.post-content h6{
+.post-content h6 {
     color: #2b5ca3;
     font-size: 20px;
     font-weight: bold;
-    }
+}
 
-.post-content h6.extend{
+.post-content h6.extend {
     color: #000
 }
 
@@ -995,7 +996,7 @@ label {
 .about-info-text p {
     /* padding: 0 100px; */
     font-size: 18px;
-    margin-bottom: 26px;    
+    margin-bottom: 26px;
     line-height: 1.5;
 }
 
@@ -1975,8 +1976,8 @@ label {
 	height:100%; */
     /* width:100%;
 	height:800px; */
-    height: 1500px;
-    max-height: 1500px !important;
+    height: 1700px;
+    max-height: 1700px !important;
 }
 
 .contact-form-title h2 {
