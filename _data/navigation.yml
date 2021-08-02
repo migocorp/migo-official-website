@@ -20,8 +20,8 @@
   url: /pages/about
 - text: 聯絡我們
   url: /pages/contact
-- text: -全方位寵物行銷講座-
-  url: /pages/seminar_signup
+#- text: -全方位寵物行銷講座-
+#  url: /pages/seminar_signup
 # - text: Pages
 #   url: /
 #   submenu:
