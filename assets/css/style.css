@@ -284,6 +284,14 @@ label {
     padding: 20px;
 }
 
+.btn-fixR1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 18px;
+    padding: 20px;
+}
+
 .btn:hover {
     color: #fff;
 }
