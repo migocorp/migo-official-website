@@ -6,25 +6,46 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
+    <meta name='description'
+        content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords}}{% else %}{{ site.keywords }}{% endif %}">
-    <!-- Facebook Open Graph -->	
+    <!-- Facebook Open Graph -->
     <meta content="{{ site.title }}" property="og:site_name">
     <meta property="og:locale" content="en_US" />
-    {% if page.title %}<meta content="{{ page.title }}" property="og:title">{% else %}<meta content="{{ site.title }}" property="og:title">{% endif %}
-    {% if page.title %}<meta content="article" property="og:type">{% else %}<meta content="website" property="og:type">{% endif %}
-    {% if page.description %}<meta content="{{ page.description }}" property="og:description">{% else %}<meta content="{{ site.description }}" property="og:description">{% endif %}
-    {% if page.url %}<meta content="{{ site.url }}{{ page.url }}" property="og:url">{% endif %}	
-    {% if page.post_image %}<meta content="{{ page.post_image }}" property="og:image">{% else %}<meta content="{{ site.cover_image }}" property="og:image">{% endif %}
-    {% if page.tag %}{% for tag in page.tag %}<meta content="{{ tag }}" property="article:tag">{% endfor %}{% endif %}
-    {% if page.categories %}{% for category in page.categories limit:1 %}<meta content="{{ category }}" property="article:section">{% endfor %}{% endif %}
-    {% if page.date %}<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">{% endif %}	
+    {% if page.title %}
+    <meta content="{{ page.title }}" property="og:title">{% else %}
+    <meta content="{{ site.title }}" property="og:title">{% endif %}
+    {% if page.title %}
+    <meta content="article" property="og:type">{% else %}
+    <meta content="website" property="og:type">{% endif %}
+    {% if page.description %}
+    <meta content="{{ page.description }}" property="og:description">{% else %}
+    <meta content="{{ site.description }}" property="og:description">{% endif %}
+    {% if page.url %}
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">{% endif %}
+    {% if page.post_image %}
+    <meta content="{{ page.post_image }}" property="og:image">{% else %}
+    <meta content="{{ site.cover_image }}" property="og:image">{% endif %}
+    {% if page.tag %}{% for tag in page.tag %}
+    <meta content="{{ tag }}" property="article:tag">{% endfor %}{% endif %}
+    {% if page.categories %}{% for category in page.categories limit:1 %}
+    <meta content="{{ category }}" property="article:section">{% endfor %}{% endif %}
+    {% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">{% endif %}
     <!-- Twitter cards -->
-    <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
     <meta name="twitter:creator" content="@{{ page.twitter_username }}">
-    {% if page.title %}<meta name="twitter:title"   content="{{ page.title }}">{% else %}<meta name="twitter:title"   content="{{ site.title }}">{% endif %}	
-    {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
-    {% if page.post_image %}<meta name="twitter:card"  content="summary_large_image"><meta name="twitter:image" content="{{ site.url }}{{ page.post_image }}">{% else %}<meta name="twitter:card"  content="summary"><meta name="twitter:image" content="{{ site.cover_image }}">{% endif %}
+    {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">{% else %}
+    <meta name="twitter:title" content="{{ site.title }}">{% endif %}
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">{% else %}
+    <meta name="twitter:description" content="{{ site.description }}">{% endif %}
+    {% if page.post_image %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.post_image }}">{% else %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ site.cover_image }}">{% endif %}
     <!-- Site Title -->
     <title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</title>
     <link rel="icon" href="{{site.baseurl}}/assets/img/favicon.png">
@@ -36,12 +57,13 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/slick.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/animate.min.css">
-	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/magnific-popup.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/meanmenu.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css?20210503">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
-    {% if page.url %}<link rel="canoncial" href="{{ site.url }}{{ page.url }}" />{% endif %}    
+    {% if page.url %}
+    <link rel="canoncial" href="{{ site.url }}{{ page.url }}" />{% endif %}
     <!-- JSON-LD -->
     <script type="application/ld+json">
         {
@@ -52,8 +74,7 @@
             "@id": "https://www.google.com/maps/place/MIGO+Corporation+%E5%8A%9F%E5%85%B8%E8%B3%87%E8%A8%8A%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/@24.9840629,121.5372995,15z/data=!4m2!3m1!1s0x0:0x7d03616ac7a78d44?sa=X&ved=2ahUKEwiN18SVq8ruAhXCLqYKHTN9BlcQ_BIwCnoECBgQBQ",
             "url": "https://www.migocorp.com/pages/contact",
             "telephone": "02 8911 5385",
-            "address": 
-            {
+            "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "新店區建國路276號2樓",
                 "addressLocality": "新北市",
@@ -64,13 +85,24 @@
     </script>
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-TNVZQZ8');</script>
-    <!-- End Google Tag Manager -->  
-
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TNVZQZ8');
+    </script>
+    <!-- End Google Tag Manager -->
+    {% include GoogleTagManager_head.liquid %}
     <title>{{site.title}}</title>
     {% feed_meta %}
 </head>
@@ -78,12 +110,11 @@
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNVZQZ8"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNVZQZ8" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     {{content}}
-    {% include GoogleTagManager_head.liquid %}
     {% include footer.html %}
 
     <!-- Optional JavaScript -->
