@@ -1,5 +1,6 @@
 #Please use the main menu items under the "text"
-
+- text: 會員忠誠平台
+  url: /pages/LitLoyal
 - text: 服務項目
   url: /pages/services-details
   submenu:
