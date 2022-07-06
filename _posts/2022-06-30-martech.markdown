@@ -20,7 +20,7 @@ description: "現今已有越來越多企業導入CRM系統，透過其強大、
   <br/>  
   <h2> CRM系統是什麼？為什麼大家都紛紛導入CRM系統？ </h2>
   <p>
-    CRM系統是一種可以幫助企業優化顧客關係管理（Customer Relationship Management）的工具，舉凡統整後台數據、分析銷售報表、客服諮詢管道維護等服務內容，皆屬於CRM的範疇。而隨著「著重<a href="https://www.google.com/url?q=https://zh.wikipedia.org/wiki/%25E4%25BD%25BF%25E7%2594%25A8%25E8%2580%2585%25E7%25B6%2593%25E9%25A9%2597&sa=D&source=editors&ust=1656303404332305&usg=AOvVaw3nqU9xaLf7WuRxhaMp7aKB" target="_blank">使用者體驗</a>」已成為現今行銷產業中的重要趨勢，眾多商家都紛紛導入CRM系統，整合、蒐集與顧客相關的所有資訊，作為優化銷售服務、擬定行銷策略的重要依據。 
+    CRM系統是一種可以幫助企業優化顧客關係管理（Customer Relationship Management）的工具，舉凡統整後台數據、分析銷售報表、客服諮詢管道維護等服務內容，皆屬於CRM的範疇。而隨著「著重使用者體驗」已成為現今行銷產業中的重要趨勢，眾多商家都紛紛導入CRM系統，整合、蒐集與顧客相關的所有資訊，作為優化銷售服務、擬定行銷策略的重要依據。 
   </p>
   <br/>
   
