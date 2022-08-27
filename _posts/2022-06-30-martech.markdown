@@ -5,7 +5,7 @@ date: 2022-06-30 10:00:00 +0800
 tags: martech
 categories: [martech]
 author: monica_powell
-permalink: "pages/blog/如何選擇CRM系統"
+permalink: "pages/blog/CRM系統導入指南"
 post_image: "/assets/img/blog/Martech8.jpg"
 alt_image: "客戶管理系統是什麼？"
 description: "現今已有越來越多企業導入CRM系統，透過其強大、便利的分析技術，作為優化營運時的..."
